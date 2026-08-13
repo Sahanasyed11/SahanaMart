@@ -1,2 +1,0 @@
-# SahanaMart
-E-Commerce Application
