@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>SahanaMart</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>🛒 SahanaMart</h1>
+
+    <button onclick="showLogin()">
+        Login
+    </button>
+
+    <button onclick="showRegister()">
+        Register
+    </button>
+
+</header>
+
+
+<div class="container">
+
+    <h2>
+        Online Shopping Website
+    </h2>
+
+
+    <div id="registerBox">
+
+        <h3>Register</h3>
+
+        <input
+            id="regName"
+            placeholder="Name"
+        >
+
+        <input
+            id="regEmail"
+            placeholder="Email"
+        >
+
+        <input
+            id="regPassword"
+            type="password"
+            placeholder="Password"
+        >
+
+        <select id="regRole">
+
+            <option value="buyer">
+                Buyer
+            </option>
+
+            <option value="seller">
+                Seller
+            </option>
+
+        </select>
+
+        <button onclick="register()">
+            Register
+        </button>
+
+        <p id="registerMessage"></p>
+
+    </div>
+
+
+    <div id="loginBox">
+
+        <h3>Login</h3>
+
+        <input
+            id="loginEmail"
+            placeholder="Email"
+        >
+
+        <input
+            id="loginPassword"
+            type="password"
+            placeholder="Password"
+        >
+
+        <button onclick="login()">
+            Login
+        </button>
+
+        <p id="loginMessage"></p>
+
+    </div>
+
+
+    <hr>
+
+
+    <h2>Products</h2>
+
+    <button onclick="loadProducts()">
+        Load Products
+    </button>
+
+
+    <div id="products"></div>
+
+
+    <hr>
+
+
+    <div id="sellerBox">
+
+        <h2>Seller Dashboard</h2>
+
+        <input
+            id="productName"
+            placeholder="Product name"
+        >
+
+        <input
+            id="productDescription"
+            placeholder="Description"
+        >
+
+        <input
+            id="productPrice"
+            type="number"
+            placeholder="Price"
+        >
+
+        <input
+            id="productCategory"
+            placeholder="Category"
+        >
+
+        <input
+            id="productStock"
+            type="number"
+            placeholder="Stock"
+        >
+
+        <input
+            id="sellerId"
+            type="number"
+            placeholder="Seller ID"
+        >
+
+        <button onclick="addProduct()">
+            Add Product
+        </button>
+
+        <p id="productMessage"></p>
+
+    </div>
+
+</div>
+
+
+<script src="/js/app.js"></script>
+
+</body>
+
+</html>
