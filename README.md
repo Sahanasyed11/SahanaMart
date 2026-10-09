@@ -1,5 +1,6 @@
 # 🛒 SahanaMart — Enterprise E-Commerce Platform
 
+> 🌐 **Live Cloud URL:** [https://sahanamart-vpr3.onrender.com/](https://sahanamart-vpr3.onrender.com/)  
 > **Anna University R2025 · Semester 3 Capstone Project**  
 > **Core Stack:** Java Servlets (`javax.servlet.*`) · JDBC (`PreparedStatement`) · Apache Tomcat 9.0.x · HikariCP · H2 / MySQL · jBCrypt · JUnit 5  
 > **Builder:** Solo Capstone Submission  
